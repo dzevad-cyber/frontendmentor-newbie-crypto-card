@@ -97,7 +97,8 @@ h1 {
   display: grid;
   row-gap: 20px;
 
-  max-width: 375px;
+  max-width: 345px;
+  min-height: 600px;
   background-color: var(--bg-card);
   border-radius: 15px;
   padding: 2.5rem;
@@ -138,7 +139,6 @@ h1 {
   align-items: center;
 
   font-size: 1.6rem;
-  padding-top: 15px;
 }
 
 .txt-highlight {
@@ -186,8 +186,8 @@ h1 {
 }
 
 .icon {
-  width: 20px;
-  height: 20px;
+  width: 12px;
+  height: 18px;
   object-fit: contain;
 }
 
